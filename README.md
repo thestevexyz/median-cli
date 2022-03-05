@@ -23,3 +23,5 @@ Only Linux (*Ubuntu 20.04*, *Debian 10*) and *Windows 10* are officially support
 However, other builds are also possible, but not officially supported.
 
 A bash script `build-executables.bash` is provided to build for multiple OS's and Architectures.
+
+Usage: `./build-executeables.bash main.go median-cli`
