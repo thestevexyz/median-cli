@@ -10,14 +10,14 @@ import (
 func main() {
 	args := os.Args[1:]
 	if len(args) < 1 {
-		printErrorAndExit("No numbers were provided")
+		printErrorAndExit("No numbers were provided.")
 	}
 
 	var argsParsed = []float64{}
 	for _, arg := range args {
 		float, err := strconv.ParseFloat(arg, 64)
 		if err != nil {
-			printErrorAndExit(fmt.Sprintf("Failed parsing argument '%s' to float64", arg))
+			printErrorAndExit(fmt.Sprintf("Failed parsing argument '%s' to float64.", arg))
 		}
 
 		argsParsed = append(argsParsed, float)
