@@ -10,7 +10,7 @@ A CLI which returns the median of given numbers
 
 
 ## Build
-1. `git pull https://github.com/thestevexyz/median-cli.git` or download repository
+1. `git clone https://github.com/thestevexyz/median-cli.git` or download repository
 2. Change directory to repository
 2. `go build -ldflags "-s -w" -trimpath .`
 3. Run CLI with `./median-cli[.exe] <numbers[]>`
